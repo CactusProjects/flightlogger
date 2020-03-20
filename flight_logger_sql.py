@@ -43,9 +43,6 @@ from sqlalchemy import create_engine
 
 # Load env variables
 load_dotenv(dotenv_path='')
-#db = os.getenv("flightdata.db")
-#db = os.getenv('sqlite:///flightdata.db')
-#db_table = os.getenv('flight_data')
 db= 'sqlite:////home/pi/flightlogger/flightdata.db'
 db_table = 'flight_data'
 
